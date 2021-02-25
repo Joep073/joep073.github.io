@@ -1,223 +1,132 @@
 	
-.<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
+  background-color:red;
+  
 }
 
-/* Style the header */
-header {
-  background-color: #f00;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
+.sidenav a:hover {
+  color: #f1f1f1;
 }
 
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f00;
-  height: 300px; /* only for demonstration, should be removed */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
 }
 
-/* Style the footer */
-footer {
-  background-color: #0a0a0a;
-  padding: 10px;
-  text-align: center;
-  color: white;
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
+h1{
+	text-align:center;
+	
 }
+	
 </style>
 </head>
 <body>
 
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="huidige.html">De huidige selectie</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
 
-<header>
-  <h2>DE HUIDIGE SELECTIE</h2>
-</header>
+<div id="main">
+ 
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
 
+<h1>Hier vind u de huidige PSV selectie</h1>
 
-<footer>
-<footer>
+<br>
+<br>
+<br>
 
-</body>
-</html>
-<div name=>
-<p><p>
-
-<p>hieronder vindt u de huidige selectie van psv </p>
-<p>II</p>
-<p>II</p>
-<p>V<p>
-
-
-<footer>
-  <p>
- </p>
-</footer>
-<!DOCTYPE html>
-<html>
-<body>
-<!DOCTYPE html>
-<html>
-<body>
-
+<center>
 <h2>Yvon Mvogo</h2>
 <img src="https://files.voetbalprimeur.nl/news/2020/09/30/v2_large_ebb2e317edc35d033baaa48ff72c9ab130701a79.jpg" alt="Trulli" width="600" height="333">
-<!DOCTYPE html>
-<html>
-<body>
 
 <h2>Lars Unnerstall</h2>
 <img src="https://media.nu.nl/m/70vxfr0aw17m_wd1280.jpg/blije-unnerstall-weet-niet-of-hij-ook-na-interlandperiode-eerste-doelman-is.jpg" alt="Trulli" width="600" height="333">
 
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
-
 <h2>Nick Viergever</h2>
 <img src="https://images4.persgroep.net/rcs/OM5IiEMkN9_cDR48ca1ieKtS-iA/diocontent/156601601/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.8" alt="Trulli" width="600" height="400">
-
-</body>
-</html>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
 
 <h2>Timo Baumgartl</h2>
 <img src="https://images.nrc.nl/odyMPiYnv5kIf8XN9efRq4cEjTQ=/1280x/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2019/09/web-1909spopsvscpjpg.jpg" alt="Trulli" width="600" height="400">
 
-</body>
-</html>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
-
 <h2>Denzel Dumfries</h2>
 <img src="https://media.nu.nl/m/v3zxdzra1ou5_wd1280.jpg/dumfries-vervangt-rosario-als-aanvoerder-bij-kwakkelend-psv.jpg" alt="Trulli" width="600" height="333">
-
-</body>
-</html>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
 
 <h2>Olivier Boscagli</h2>
 <img src="https://media.nu.nl/m/w41x79ha0paj_wd1280.jpg/psv-met-boscagli-en-gakpo-in-basis-tegen-rosenborg-in-europa-league.jpg" alt="Trulli" width="600" height="333">
 
-</body>
-</html>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
-
 <h2>Jordan Teze</h2>
 <img src="https://images.lc.nl/images/qrv4va-img-061220-145.jpg/alternates/LANDSCAPE_960/img-061220-145.jpg" alt="Trulli" width="600" height="350">
-
-</body>
-</html>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
 
 <h2>Phillip Max</h2>
 <img src="https://media.nu.nl/m/384xu3la3bhy_wd1280.jpg/psver-max-als-tweede-eredivisie-speler-ooit-opgeroepen-voor-duits-elftal.jpg" alt="Trulli" width="600" height="350">
 
-</body>
-</html>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
-
 <h2>Marco van Ginkel</h2>
 <img src="https://pbs.twimg.com/media/Dh14-42W4AA7AS9.jpg" alt="Trulli" width="600" height="400">
-
-</body>
-</html>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
 
 <h2>Mauro Junior</h2>
 <img src="https://files.voetbalprimeur.nl/social/2020/11/18/social_64bd22fa3f53e40db513481ff6f4f702f56973df.jpg" alt="Trulli" width="600" height="330">
 
-</body>
-</html>
-
-
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
-
 <h2>Érick Gutiérrez</h2>
 <img src="https://files.voetbalprimeur.nl/social/2020/07/23/social_b501cf597b8245d8aea8dfa5b97c41e8e12318d6.png" alt="Trulli" width="600" height="300">
 
-</body>
-</html>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
 
-
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
 </body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
+</html> 
