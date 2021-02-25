@@ -1,0 +1,223 @@
+	
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #f00;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f00;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #0a0a0a;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>DE HUIDIGE SELECTIE</h2>
+</header>
+
+
+<footer>
+<footer>
+
+</body>
+</html>
+<div name=>
+<p><p>
+
+<p>hieronder vindt u de huidige selectie van psv </p>
+<p>II</p>
+<p>II</p>
+<p>V<p>
+
+
+<footer>
+  <p>
+ </p>
+</footer>
+<!DOCTYPE html>
+<html>
+<body>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Yvon Mvogo</h2>
+<img src="https://files.voetbalprimeur.nl/news/2020/09/30/v2_large_ebb2e317edc35d033baaa48ff72c9ab130701a79.jpg" alt="Trulli" width="600" height="333">
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Lars Unnerstall</h2>
+<img src="https://media.nu.nl/m/70vxfr0aw17m_wd1280.jpg/blije-unnerstall-weet-niet-of-hij-ook-na-interlandperiode-eerste-doelman-is.jpg" alt="Trulli" width="600" height="333">
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Nick Viergever</h2>
+<img src="https://images4.persgroep.net/rcs/OM5IiEMkN9_cDR48ca1ieKtS-iA/diocontent/156601601/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.8" alt="Trulli" width="600" height="400">
+
+</body>
+</html>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Timo Baumgartl</h2>
+<img src="https://images.nrc.nl/odyMPiYnv5kIf8XN9efRq4cEjTQ=/1280x/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2019/09/web-1909spopsvscpjpg.jpg" alt="Trulli" width="600" height="400">
+
+</body>
+</html>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Denzel Dumfries</h2>
+<img src="https://media.nu.nl/m/v3zxdzra1ou5_wd1280.jpg/dumfries-vervangt-rosario-als-aanvoerder-bij-kwakkelend-psv.jpg" alt="Trulli" width="600" height="333">
+
+</body>
+</html>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Olivier Boscagli</h2>
+<img src="https://media.nu.nl/m/w41x79ha0paj_wd1280.jpg/psv-met-boscagli-en-gakpo-in-basis-tegen-rosenborg-in-europa-league.jpg" alt="Trulli" width="600" height="333">
+
+</body>
+</html>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Jordan Teze</h2>
+<img src="https://images.lc.nl/images/qrv4va-img-061220-145.jpg/alternates/LANDSCAPE_960/img-061220-145.jpg" alt="Trulli" width="600" height="350">
+
+</body>
+</html>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Phillip Max</h2>
+<img src="https://media.nu.nl/m/384xu3la3bhy_wd1280.jpg/psver-max-als-tweede-eredivisie-speler-ooit-opgeroepen-voor-duits-elftal.jpg" alt="Trulli" width="600" height="350">
+
+</body>
+</html>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Marco van Ginkel</h2>
+<img src="https://pbs.twimg.com/media/Dh14-42W4AA7AS9.jpg" alt="Trulli" width="600" height="400">
+
+</body>
+</html>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Mauro Junior</h2>
+<img src="https://files.voetbalprimeur.nl/social/2020/11/18/social_64bd22fa3f53e40db513481ff6f4f702f56973df.jpg" alt="Trulli" width="600" height="330">
+
+</body>
+</html>
+
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Érick Gutiérrez</h2>
+<img src="https://files.voetbalprimeur.nl/social/2020/07/23/social_b501cf597b8245d8aea8dfa5b97c41e8e12318d6.png" alt="Trulli" width="600" height="300">
+
+</body>
+</html>
+
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
