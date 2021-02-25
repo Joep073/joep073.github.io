@@ -22,34 +22,11 @@ header {
   color: white;
 }
 
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #000;
-  padding: 20px;
-}
 
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
   padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f00;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /* Style the footer */
@@ -60,16 +37,11 @@ footer {
   color: white;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
 </style>
 </head>
 <body>
+
+
 
 
 <header>
@@ -145,3 +117,4 @@ li a:hover {
 
 </body>
 </html>
+
