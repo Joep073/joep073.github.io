@@ -112,9 +112,7 @@ li a:hover {
 <html>
 <body>
 
-=
 <img src="https://media.nu.nl/m/z1yx1xsaexdv_wd1280.jpg/psv-mist-gotze-ook-in-cruciaal-europa-league-duel-met-paok.jpg" alt="Trulli" width="600" height="333"><img src="https://media.nu.nl/m/ohcx4yqamym5_wd1280.jpg/psv-met-ihattaren-en-viergever-tegen-heracles-reserverol-malen.jpg" alt="Trulli" width="600" height="333">
 
 </body>
 </html>
-
